@@ -70,6 +70,7 @@ const fadeUp = {
 
 export default function Hero() {
   const scrollToProjects = () => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  const scrollToContact = () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <section
@@ -142,14 +143,14 @@ export default function Hero() {
           >
             <Download size={16} /> View Resume
           </motion.a>
-          <motion.a
-            href={`mailto:${personalInfo.email}`}
+          <motion.button
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
+            onClick={scrollToContact}
             className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-neutral/20 dark:border-white/10 text-neutral dark:text-neutral-light font-semibold transition-all hover:border-primary/30 hover:text-primary dark:hover:text-primary-light"
           >
             Get In Touch
-          </motion.a>
+          </motion.button>
         </motion.div>
 
         {/* Social icons */}
