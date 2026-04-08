@@ -47,9 +47,7 @@ export default function Navbar() {
     const id = href.replace("#", "");
     const el = document.getElementById(id);
     if (!el) return;
-    // Offset for fixed 64px navbar
-    const top = el.getBoundingClientRect().top + window.pageYOffset - 64;
-    window.scrollTo({ top, behavior: "smooth" });
+    el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
