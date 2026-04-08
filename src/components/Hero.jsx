@@ -99,7 +99,7 @@ export default function Hero() {
         >
           Hi, I'm{" "}
           <span className="gradient-text">Het Shah</span>{" "}
-          <span className="inline-block animate-[float_3s_ease-in-out_infinite]">👋</span>
+          <span className="inline-block animate">👋</span>
         </motion.h1>
 
         {/* Subheading with typing */}
