@@ -3,7 +3,7 @@
 // =============================================
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, ExternalLink } from "lucide-react";
+import { ArrowDown, ExternalLink, Download } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { personalInfo } from "../data/resumeData";
@@ -118,7 +118,7 @@ export default function Hero() {
           variants={fadeUp}
           className="max-w-2xl mx-auto text-base md:text-lg text-neutral dark:text-neutral-light leading-relaxed mb-10"
         >
-          CE student at GTU crafting scalable web experiences — from RESTful APIs to AI-powered apps.
+          CS student at GTU crafting scalable web experiences — from RESTful APIs to AI-powered apps.
           Based in Ahmedabad, India 📍
         </motion.p>
 
@@ -133,10 +133,20 @@ export default function Hero() {
             View Projects <ExternalLink size={16} />
           </motion.button>
           <motion.a
-            href={`mailto:${personalInfo.email}`}
+            href="/Het_Shah_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-primary/30 text-primary dark:text-blue-400 font-semibold transition-all hover:border-primary hover:bg-primary/5"
+          >
+            <Download size={16} /> View Resume
+          </motion.a>
+          <motion.a
+            href={`mailto:${personalInfo.email}`}
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+            className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-neutral/20 dark:border-white/10 text-neutral dark:text-neutral-light font-semibold transition-all hover:border-primary/30 hover:text-primary dark:hover:text-primary-light"
           >
             Get In Touch
           </motion.a>
@@ -165,8 +175,8 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Scroll indicator */}
-      {/* <motion.button
+      {/* Scroll indicator
+      <motion.button
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
