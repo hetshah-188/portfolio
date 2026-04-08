@@ -3,7 +3,7 @@
 // =============================================
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sun, Moon, Menu, X, Code2 } from "lucide-react";
+import { Sun, Moon, Menu, X, Code2, Download } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 
 const NAV_LINKS = [
@@ -44,7 +44,12 @@ export default function Navbar() {
 
   const handleNav = (href) => {
     setMenuOpen(false);
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    const id = href.replace("#", "");
+    const el = document.getElementById(id);
+    if (!el) return;
+    // Offset for fixed 64px navbar
+    const top = el.getBoundingClientRect().top + window.pageYOffset - 64;
+    window.scrollTo({ top, behavior: "smooth" });
   };
 
   return (
@@ -52,11 +57,10 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
           ? "backdrop-blur-xl bg-white/80 dark:bg-dark/80 shadow-sm border-b border-white/20 dark:border-white/5"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
         {/* Logo */}
@@ -80,11 +84,10 @@ export default function Navbar() {
               href={link.href}
               onClick={(e) => { e.preventDefault(); handleNav(link.href); }}
               whileHover={{ scale: 1.05 }}
-              className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${
-                active === link.href.slice(1)
+              className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${active === link.href.slice(1)
                   ? "text-primary"
                   : "text-neutral dark:text-neutral-light hover:text-dark dark:hover:text-white"
-              }`}
+                }`}
             >
               {active === link.href.slice(1) && (
                 <motion.span
@@ -100,6 +103,18 @@ export default function Navbar() {
 
         {/* Right controls */}
         <div className="flex items-center gap-3">
+          {/* Resume download button — desktop only */}
+          <motion.a
+            href="/Het_Shah_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="hidden md:flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-white text-xs font-semibold hover:bg-primary-dark transition-colors shadow-sm shadow-primary/20"
+          >
+            <Download size={13} />
+            Resume
+          </motion.a>
           {/* Dark mode toggle */}
           <motion.button
             whileHover={{ scale: 1.1 }}
@@ -154,6 +169,18 @@ export default function Navbar() {
                 {link.label}
               </motion.a>
             ))}
+            {/* Resume link in mobile menu */}
+            <motion.a
+              href="/Het_Shah_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              initial={{ x: -20, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: NAV_LINKS.length * 0.06 }}
+              className="flex items-center gap-2 px-8 py-4 text-sm font-semibold text-primary"
+            >
+              <Download size={14} /> Download Resume
+            </motion.a>
           </motion.div>
         )}
       </AnimatePresence>
