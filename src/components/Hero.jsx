@@ -119,7 +119,7 @@ export default function Hero() {
           variants={fadeUp}
           className="max-w-2xl mx-auto text-base md:text-lg text-neutral dark:text-neutral-light leading-relaxed mb-10"
         >
-          CS student at GTU crafting scalable web experiences — from RESTful APIs to AI-powered apps.
+          CE student at GTU crafting scalable web experiences — from RESTful APIs to AI-powered apps.
           Based in Ahmedabad, India 📍
         </motion.p>
 
