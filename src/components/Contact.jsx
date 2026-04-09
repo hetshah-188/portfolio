@@ -323,7 +323,7 @@ export default function Contact() {
               {/* Hint if EmailJS not configured */}
               {!EMAILJS_CONFIGURED && (
                 <p className="text-xs text-neutral-light text-center pt-1">
-                  EmailJS not configured — the button will open your mail app instead.
+                  
                 </p>
               )}
             </form>
