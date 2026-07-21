@@ -4,14 +4,14 @@
 
 export const personalInfo = {
   name: "Het Shah",
-  title: "Full Stack Developer",
-  roles: ["Full Stack Developer", "Web Developer", "Cloud Engineer", "AI Enthusiast"],
-  email: "hetshah.genai@gmail.com",
+  title: "Aspiring Cloud Engineer & Full Stack Developer",
+  roles: ["Aspiring Cloud Engineer | Full Stack Developer", "AWS Certified Cloud Practitioner", "Data Analytics & ML Intern"],
+  email: "shahhets188@gmail.com",
   phone: "+91 7984291743",
   location: "Ahmedabad, India",
   github: "https://github.com/hetshah-188",
   linkedin: "https://www.linkedin.com/in/hetshah188",
-  bio: "I'm a Computer Engineering student at GTU with a passion for building scalable, user-centric digital experiences. From architecting RESTful APIs to integrating AI models, I love turning complex problems into elegant solutions. When I'm not coding, I'm exploring new cloud technologies and contributing to open source.",
+  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCurrently interning in Data Analytics & ML at InfoLabz, learning how data and cloud actually meet in production.\n\nRight now: chasing my next AWS cert, and open to Cloud/DevOps internships. Let's talk.",
 };
 
 export const education = [
@@ -19,7 +19,7 @@ export const education = [
     id: 1,
     degree: "Bachelor of Engineering in Computer Engineering",
     institution: "Gujarat Technological University (GTU)",
-    period: "August 2024 – September 2027",
+    period: "August 2024 – May 2027",
     icon: "🎓",
     color: "#0066CC",
   },
@@ -31,6 +31,25 @@ export const education = [
     icon: "📜",
     color: "#4D9FE8",
   },
+];
+
+export const experience = [
+  {
+    id: 1,
+    role: "Data Analytics and Machine Learning Intern",
+    company: "InfoLabz IT Services",
+    location: "Ahmedabad, India",
+    period: "July 2026 – Present",
+    description: "Working at the intersection of data infrastructure and cloud systems, developing core skills in data handling, machine learning, and visualization.",
+    achievements: [
+      "Worked with API data, applying pandas for comprehensive data analysis and manipulation.",
+      "Created impactful visualizations using matplotlib and Power BI to communicate analytical insights.",
+      "Implemented basic regression models to solidify understanding of machine learning principles."
+    ],
+    skills: ["Python", "Pandas", "matplotlib", "Microsoft Power BI", "Machine Learning"],
+    icon: "📊",
+    color: "#0066CC",
+  }
 ];
 
 export const projects = [
@@ -50,12 +69,12 @@ export const projects = [
       "RESTful API architecture",
       "High availability & low-latency responses",
     ],
-    period: "March 2026 – Present",
+    period: "March 2026 – June 2026",
     color: "#FF3B30",
     gradient: "from-red-500/20 to-rose-600/10",
     icon: "🩸",
-    github: "https://github.com/hetshah-188",
-    status: "In Progress",
+    github: "https://github.com/hetshah-188/Life4U",
+    status: "Completed",
   },
   {
     id: 2,
@@ -106,28 +125,26 @@ export const projects = [
 ];
 
 export const skills = {
-  Languages: [
-    { name: "JavaScript", icon: "devicon-javascript-plain colored", level: 90 },
-    { name: "Python", icon: "devicon-python-plain colored", level: 82 },
-    { name: "Java", icon: "devicon-java-plain colored", level: 70 },
-    { name: "HTML5", icon: "devicon-html5-plain colored", level: 95 },
-    { name: "CSS3", icon: "devicon-css3-plain colored", level: 90 },
-    { name: "SQL", icon: "devicon-mysql-plain colored", level: 75 },
-  ],
   Frontend: [
-    { name: "React.js", icon: "devicon-react-original colored", level: 88 },
-    { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored", level: 90 },
+    { name: "React.js", icon: "devicon-react-original colored", level: 58 },
+    { name: "JavaScript", icon: "devicon-javascript-plain colored", level: 50 },
+    { name: "HTML5", icon: "devicon-html5-plain colored", level: 95 },
+    { name: "CSS3", icon: "devicon-css3-plain colored", level: 80 },
+    { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored", level: 70 },
   ],
   Backend: [
-    { name: "Node.js", icon: "devicon-nodejs-plain colored", level: 85 },
-    { name: "Express.js", icon: "devicon-express-original", level: 82 },
-    { name: "FastAPI", icon: "devicon-fastapi-plain colored", level: 65 },
+    { name: "Node.js", icon: "devicon-nodejs-plain colored", level: 45 },
+    { name: "Express.js", icon: "devicon-express-original", level: 42 },
+    { name: "FastAPI", icon: "devicon-fastapi-plain colored", level: 55 },
+    { name: "Python", icon: "devicon-python-plain colored", level: 72 },
+    { name: "Java", icon: "devicon-java-plain colored", level: 60 },
   ],
   Databases: [
     { name: "MongoDB", icon: "devicon-mongodb-plain colored", level: 82 },
-    { name: "MySQL", icon: "devicon-mysql-plain colored", level: 75 },
+    { name: "PostgreSQL", icon: "devicon-postgresql-plain colored", level: 75 },
   ],
-  "Cloud & Tools": [
+  "Cloud & DevOps": [
+    { name: "AWS (EC2, IAM, S3)", icon: "devicon-amazonwebservices-original colored", level: 85 },
     { name: "GCP", icon: "devicon-googlecloud-plain colored", level: 70 },
     { name: "Git", icon: "devicon-git-plain colored", level: 88 },
     { name: "GitHub", icon: "devicon-github-original", level: 88 },
@@ -136,6 +153,30 @@ export const skills = {
 };
 
 export const certifications = [
+  {
+    title: "AWS Certified Cloud Practitioner (CLF-C02)",
+    issuer: "Amazon Web Services (AWS)",
+    year: "2026",
+    achievements: [
+      "AWS Fundamentals",
+      "Amazon S3",
+      "Identity and Access Management (IAM)"
+    ],
+    icon: "☁️",
+    color: "#FF9900",
+  },
+  {
+    title: "AWS Cloud Quest: Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    year: "2026",
+    achievements: [
+      "Completed AWS Cloud Quest: Cloud Practitioner - Training Badge",
+      "Gained hands-on experience in AWS Core services: EC2, IAM, S3, RDS, CloudWatch, etc.",
+      "Demonstrated capability in configuring cloud computing infrastructure and secure IAM policies."
+    ],
+    icon: "☁️",
+    color: "#FF9900",
+  },
   {
     title: "Google Cloud Skills Boost",
     issuer: "Google Cloud",
@@ -156,7 +197,7 @@ export const certifications = [
     year: "2024",
     achievements: [
       "Selected as SIH participant",
-      "Solved real-world government problem statements",
+      "Solved real-world government problem statements under tight deadlines",
       "Demonstrated agile development & rapid prototyping",
     ],
     icon: "🏆",
@@ -165,14 +206,10 @@ export const certifications = [
 ];
 
 export const interests = [
-  "Software Engineering",
-  "Full-Stack Web Development",
-  "Cloud Computing (GCP)",
-  "Machine Learning",
-  "Data Structures & Algorithms",
-  "System Design",
-  "OOP",
-  "Agile Methodologies",
-  "Open Source",
-  "API Development",
+  "Cloud Computing (AWS & Google Cloud Platform)",
+  "Cloud Infrastructure & Deployment (EC2, IAM, S3)",
+  "DevOps",
+  "Data Analytics & Machine Learning",
+  "Full-Stack Web Development (MERN/PostgreSQL)",
+  "AI/ML Applications",
 ];

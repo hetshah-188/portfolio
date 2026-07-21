@@ -10,18 +10,18 @@ import { Sun, Moon, Menu, X, Code2, Download } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 
 const NAV_LINKS = [
-  { label: "Home",     href: "#home" },
-  { label: "About",    href: "#about" },
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Skills",   href: "#skills" },
-  { label: "Contact",  href: "#contact" },
+  { label: "Skills", href: "#skills" },
 ];
 
 export default function Navbar() {
   const { isDark, toggle } = useTheme();
-  const [scrolled,  setScrolled]  = useState(false);
-  const [menuOpen,  setMenuOpen]  = useState(false);
-  const [active,    setActive]    = useState("home");
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [active, setActive] = useState("home");
 
   // Frosted glass on scroll
   useEffect(() => {
@@ -74,11 +74,10 @@ export default function Navbar() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
             ? "backdrop-blur-xl bg-white/90 dark:bg-[#1D1D1F]/90 shadow-sm border-b border-black/5 dark:border-white/5"
             : "bg-transparent"
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-5 md:px-12 h-16 flex items-center justify-between">
 
@@ -101,11 +100,10 @@ export default function Navbar() {
                 key={link.href}
                 onClick={() => handleNav(link.href)}
                 whileHover={{ scale: 1.05 }}
-                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${
-                  active === link.href.slice(1)
+                className={`relative px-4 py-2 text-sm font-medium rounded-full transition-colors duration-200 ${active === link.href.slice(1)
                     ? "text-primary"
                     : "text-neutral dark:text-neutral-light hover:text-dark dark:hover:text-white"
-                }`}
+                  }`}
               >
                 {active === link.href.slice(1) && (
                   <motion.span

@@ -1,6 +1,6 @@
 // =============================================
 // About Section — Bio + Education Timeline
-// Avatar: drop your photo as /public/het-avatar.png
+// Avatar: drop your photo as /public/het-avatar.jpg
 // =============================================
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -47,7 +47,7 @@ function Avatar() {
         {/* Glow ring */}
         <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary to-blue-400 blur-md opacity-40 scale-105" />
         <img
-          src="/het-avatar.png"
+          src="/het-avatar.jpg"
           alt="Het Shah"
           onError={() => setImgError(true)}
           className="relative w-24 h-24 rounded-2xl object-cover object-top
@@ -56,8 +56,8 @@ function Avatar() {
           style={{ imageRendering: "auto" }}
         />
         {/* Online dot */}
-        <span className="absolute -bottom-1.5 -right-1.5 w-5 h-5 rounded-full
-                         bg-green-400 border-2 border-white dark:border-[#1D1D1F]
+        <span className="absolute -bottom-2 -right-2 w-5 h-5 rounded-full
+                         bg-green-400 border-4 border-white dark:border-[#1D1D1F]
                          shadow-sm" />
       </div>
     );
@@ -77,6 +77,54 @@ function Avatar() {
     </div>
   );
 }
+
+const renderBio = (bioText) => {
+  if (!bioText) return null;
+  
+  // Split into paragraphs by double newlines
+  const paragraphs = bioText.split('\n\n');
+  
+  return paragraphs.map((para, idx) => {
+    // Check if paragraph contains "What I've built" list
+    if (para.includes("What I've built:")) {
+      const lines = para.split('\n');
+      const title = lines[0];
+      const items = lines.slice(1);
+      
+      return (
+        <div key={idx} className="my-5 bg-zinc-50 dark:bg-zinc-900/30 p-5 rounded-2xl border border-zinc-100 dark:border-zinc-800/50">
+          <h4 className="text-xs font-bold uppercase tracking-wider text-primary mb-3">
+            {title}
+          </h4>
+          <ul className="space-y-3">
+            {items.map((item, itemIdx) => {
+              const match = item.match(/^([^\s]+)\s+(.+)$/);
+              const emoji = match ? match[1] : "•";
+              const text = match ? match[2] : item;
+              
+              return (
+                <li key={itemIdx} className="flex items-start gap-2.5 text-sm text-zinc-700 dark:text-zinc-300">
+                  <span className="text-base flex-shrink-0 leading-none select-none">{emoji}</span>
+                  <span className="leading-relaxed">{text}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      );
+    }
+    
+    // Default paragraph styling
+    return (
+      <p 
+        key={idx} 
+        className="text-zinc-700 dark:text-zinc-300 leading-relaxed text-[15px] mb-4 last:mb-0"
+      >
+        {para}
+      </p>
+    );
+  });
+};
 
 export default function About() {
   return (
@@ -105,32 +153,33 @@ export default function About() {
                               bg-primary/10 dark:bg-primary/20 -z-10" />
 
               <div className="bg-white dark:bg-white/5 rounded-3xl p-8
-                              border border-neutral/10 dark:border-white/10 shadow-sm">
+                              border border-neutral/10 dark:border-white/10 shadow-sm
+                              hover:border-primary/25 dark:hover:border-primary/35 transition-all duration-300">
                 {/* ── Avatar ── */}
                 <Avatar />
 
                 <h3 className="text-2xl font-bold text-dark dark:text-white mb-2">
                   {personalInfo.name}
                 </h3>
-                <div className="flex items-center gap-2 text-neutral dark:text-neutral-light text-sm mb-6">
+                <div className="flex items-center gap-2 text-zinc-500 dark:text-zinc-400 text-sm mb-6">
                   <MapPin size={14} className="text-primary" />
                   {personalInfo.location}
                 </div>
-                <p className="text-neutral dark:text-neutral-light leading-relaxed mb-6">
-                  {personalInfo.bio}
-                </p>
+                <div className="mb-6">
+                  {renderBio(personalInfo.bio)}
+                </div>
 
                 {/* Stats */}
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t
                                 border-neutral/10 dark:border-white/10">
                   {[
                     { label: "Projects", value: "3+" },
-                    { label: "GCP Certs", value: "5+" },
-                    { label: "Years Exp", value: "3+" },
+                    { label: "Cloud Certs", value: "3+" },
+                    { label: "Years Exp", value: "1+" },
                   ].map((s) => (
                     <div key={s.label} className="text-center">
                       <div className="text-2xl font-black text-primary">{s.value}</div>
-                      <div className="text-xs text-neutral dark:text-neutral-light font-medium">
+                      <div className="text-xs text-zinc-500 dark:text-zinc-400 font-medium">
                         {s.label}
                       </div>
                     </div>
@@ -174,7 +223,7 @@ export default function About() {
                                       hover:border-primary/30 transition-colors">
                         <div className="text-xs text-primary font-semibold mb-1">{edu.period}</div>
                         <div className="font-bold text-dark dark:text-white text-sm mb-1">{edu.degree}</div>
-                        <div className="text-xs text-neutral dark:text-neutral-light">{edu.institution}</div>
+                        <div className="text-xs text-zinc-500 dark:text-zinc-400 font-medium">{edu.institution}</div>
                       </div>
                     </motion.div>
                   ))}

@@ -2,7 +2,7 @@
 // Hero Section — Animated background + typing
 // =============================================
 import { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { ArrowDown, ExternalLink, Download } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -70,7 +70,13 @@ const fadeUp = {
 
 export default function Hero() {
   const scrollToProjects = () => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
-  const scrollToContact = () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  const [copied, setCopied] = useState(false);
+  
+  const handleGetInTouch = () => {
+    navigator.clipboard.writeText(personalInfo.email);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <section
@@ -89,7 +95,7 @@ export default function Hero() {
         <motion.div variants={fadeUp} className="mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 dark:bg-primary/20 text-primary text-sm font-semibold border border-primary/20">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse-slow" />
-            Available for opportunities
+            Available for Cloud/DevOps internships
           </span>
         </motion.div>
 
@@ -106,9 +112,9 @@ export default function Hero() {
         {/* Subheading with typing */}
         <motion.p
           variants={fadeUp}
-          className="text-2xl md:text-3xl text-neutral dark:text-neutral-light font-light mb-2"
+          className="text-2xl md:text-3xl text-zinc-600 dark:text-zinc-300 font-light mb-2"
         >
-          I build things for the web
+          I build things for the web — and figure out how to run them in the cloud
         </motion.p>
         <motion.div variants={fadeUp} className="text-2xl md:text-3xl mb-8 h-10">
           <TypingText />
@@ -117,10 +123,9 @@ export default function Hero() {
         {/* Bio */}
         <motion.p
           variants={fadeUp}
-          className="max-w-2xl mx-auto text-base md:text-lg text-neutral dark:text-neutral-light leading-relaxed mb-10"
+          className="max-w-2xl mx-auto text-base md:text-lg text-zinc-600 dark:text-zinc-300 leading-relaxed mb-10"
         >
-          CE student at GTU crafting scalable web experiences — from RESTful APIs to AI-powered apps.
-          Based in Ahmedabad, India 📍
+          CE student at GTU crafting scalable web experiences and exploring cloud infrastructure — from RESTful APIs to AWS-deployed, AI-powered apps. Based in Ahmedabad, India 📍
         </motion.p>
 
         {/* CTA buttons */}
@@ -143,14 +148,28 @@ export default function Hero() {
           >
             <Download size={16} /> View Resume
           </motion.a>
-          <motion.button
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.97 }}
-            onClick={scrollToContact}
-            className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-neutral/20 dark:border-white/10 text-neutral dark:text-neutral-light font-semibold transition-all hover:border-primary/30 hover:text-primary dark:hover:text-primary-light"
-          >
-            Get In Touch
-          </motion.button>
+          <div className="relative">
+            <motion.button
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.97 }}
+              onClick={handleGetInTouch}
+              className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-neutral/20 dark:border-white/10 text-neutral dark:text-neutral-light font-semibold transition-all hover:border-primary/30 hover:text-primary dark:hover:text-primary-light"
+            >
+              {copied ? "Email Copied!" : "Get In Touch"}
+            </motion.button>
+            <AnimatePresence>
+              {copied && (
+                <motion.span
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute -top-12 left-1/2 -translate-x-1/2 px-3 py-1.5 rounded-xl bg-primary text-white text-xs font-semibold shadow-lg whitespace-nowrap z-20"
+                >
+                  Copied: {personalInfo.email}
+                </motion.span>
+              )}
+            </AnimatePresence>
+          </div>
         </motion.div>
 
         {/* Social icons */}
@@ -158,12 +177,12 @@ export default function Hero() {
           {[
             { icon: FaGithub, href: personalInfo.github, label: "GitHub" },
             { icon: FaLinkedinIn, href: personalInfo.linkedin, label: "LinkedIn" },
-            { icon: MdEmail, href: `mailto:${personalInfo.email}`, label: "Email" },
+            { icon: MdEmail, href: `https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.email}`, label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <motion.a
               key={label}
               href={href}
-              target={label !== "Email" ? "_blank" : undefined}
+              target="_blank"
               rel="noreferrer"
               aria-label={label}
               whileHover={{ scale: 1.15, y: -3 }}

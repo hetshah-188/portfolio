@@ -49,14 +49,14 @@ function ProjectCard({ project, idx }) {
               </div>
               <div>
                 <h3 className="font-bold text-dark dark:text-white text-lg leading-tight">{project.title}</h3>
-                <p className="text-xs text-neutral dark:text-neutral-light">{project.subtitle}</p>
+                <p className="text-xs text-zinc-500 dark:text-zinc-400">{project.subtitle}</p>
               </div>
             </div>
             <StatusBadge status={project.status} />
           </div>
 
           {/* Description */}
-          <p className="text-sm text-neutral dark:text-neutral-light leading-relaxed mb-5 line-clamp-3">
+          <p className="text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed mb-5 line-clamp-3">
             {project.description}
           </p>
 
@@ -126,7 +126,7 @@ function ProjectCard({ project, idx }) {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-dark dark:text-white">{project.title}</h3>
-                    <p className="text-sm text-neutral dark:text-neutral-light">{project.subtitle}</p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400">{project.subtitle}</p>
                   </div>
                 </div>
                 <button onClick={() => setExpanded(false)}
@@ -135,12 +135,12 @@ function ProjectCard({ project, idx }) {
                 </button>
               </div>
 
-              <p className="text-sm text-neutral dark:text-neutral-light leading-relaxed mb-4">{project.longDesc}</p>
+              <p className="text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed mb-4">{project.longDesc}</p>
 
               <h4 className="font-semibold text-dark dark:text-white mb-3 text-sm">Key Features</h4>
               <ul className="space-y-2 mb-6">
                 {project.features.map((f) => (
-                  <li key={f} className="flex items-center gap-2 text-sm text-neutral dark:text-neutral-light">
+                  <li key={f} className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-300">
                     <CheckCircle2 size={14} style={{ color: project.color }} className="flex-shrink-0" />
                     {f}
                   </li>
@@ -190,7 +190,7 @@ export default function Projects() {
           <h2 className="text-4xl md:text-5xl font-black text-dark dark:text-white tracking-tight mb-4">
             Things I've Built
           </h2>
-          <p className="text-neutral dark:text-neutral-light max-w-xl mx-auto">
+          <p className="text-zinc-600 dark:text-zinc-300 max-w-xl mx-auto">
             A collection of projects showcasing full-stack skills, AI integration, and cloud deployment.
           </p>
         </motion.div>
