@@ -6,12 +6,12 @@ export const personalInfo = {
   name: "Het Shah",
   title: "Aspiring Cloud Engineer & Full Stack Developer",
   roles: ["Aspiring Cloud Engineer | Full Stack Developer", "AWS Certified Cloud Practitioner", "Data Analytics & ML Intern"],
-  email: "shahhets188@gmail.com",
+  email: "hetshah.genai@gmail.com",
   phone: "+91 7984291743",
   location: "Ahmedabad, India",
   github: "https://github.com/hetshah-188",
   linkedin: "https://www.linkedin.com/in/hetshah188",
-  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCurrently interning in Data Analytics & ML at InfoLabz, learning how data and cloud actually meet in production.\n\nRight now: chasing my next AWS cert, and open to Cloud/DevOps internships. Let's talk.",
+  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCompleted an internship in Data Analytics & ML at InfoLabz, learning how data and cloud actually meet in production.\n\nRight now: chasing my next AWS cert, and open to Cloud/DevOps internships. Let's talk.",
 };
 
 export const education = [
@@ -19,7 +19,7 @@ export const education = [
     id: 1,
     degree: "Bachelor of Engineering in Computer Engineering",
     institution: "Gujarat Technological University (GTU)",
-    period: "August 2024 – May 2027",
+    period: "August 2024 – September 2027",
     icon: "🎓",
     color: "#0066CC",
   },
@@ -36,17 +36,17 @@ export const education = [
 export const experience = [
   {
     id: 1,
-    role: "Data Analytics and Machine Learning Intern",
+    role: "Data Analytics & Machine Learning Intern",
     company: "InfoLabz IT Services",
     location: "Ahmedabad, India",
-    period: "July 2026 – Present",
-    description: "Working at the intersection of data infrastructure and cloud systems, developing core skills in data handling, machine learning, and visualization.",
+    period: "July 2026 – July 2026 (15 Days)",
+    description: "Analyzed API-sourced data with Pandas, built visualizations in Matplotlib/Power BI, and implemented basic regression models for foundational ML practice.",
     achievements: [
-      "Worked with API data, applying pandas for comprehensive data analysis and manipulation.",
-      "Created impactful visualizations using matplotlib and Power BI to communicate analytical insights.",
-      "Implemented basic regression models to solidify understanding of machine learning principles."
+      "Analyzed API-sourced data with Pandas for comprehensive data processing.",
+      "Built visualizations in Matplotlib and Microsoft Power BI to communicate insights.",
+      "Implemented basic regression models for foundational ML practice."
     ],
-    skills: ["Python", "Pandas", "matplotlib", "Microsoft Power BI", "Machine Learning"],
+    skills: ["Python", "Pandas", "Matplotlib", "Microsoft Power BI", "Machine Learning"],
     icon: "📊",
     color: "#0066CC",
   }
@@ -58,9 +58,9 @@ export const projects = [
     title: "Life4U",
     subtitle: "Blood Bank Management System",
     description:
-      "A scalable Blood Bank Management System supporting four distinct roles — donor, patient, hospital staff, and admin — with role-based access control, reducing blood wastage through real-time inventory tracking.",
+      "Architected a scalable Blood Bank Management System for four roles (donor, patient, hospital staff, admin) with role-based access, reducing wastage via real-time inventory tracking.",
     longDesc:
-      "Engineered real-time data management modules for direct booking, streamlined coordination of blood resources, and hospital records. Designed and implemented RESTful APIs for cross-platform data synchronisation between donors, hospitals, and administrators.",
+      "Designed RESTful APIs for real-time booking and cross-platform data sync between donors, hospitals, and administrators.",
     stack: ["Node.js", "JavaScript", "MongoDB", "React.js", "REST API"],
     features: [
       "Role-based access control (4 roles)",
@@ -74,6 +74,7 @@ export const projects = [
     gradient: "from-red-500/20 to-rose-600/10",
     icon: "🩸",
     github: "https://github.com/hetshah-188/Life4U",
+    live: "https://life4u.me",
     status: "Completed",
   },
   {
@@ -81,10 +82,10 @@ export const projects = [
     title: "FarmAssist",
     subtitle: "AI-Powered Farming Solution",
     description:
-      "An end-to-end AI-powered web application enabling farmers to upload plant images for automated disease detection, leveraging computer vision models to deliver real-time diagnostic insights via a smart chatbot.",
+      "Built an AI-powered web app for automated plant disease detection via computer vision, with real-time diagnostics through a smart chatbot.",
     longDesc:
-      "Integrated multilingual NLP support, live weather prediction APIs, real-time crop market pricing, and NGO geo-mapping. Delivered a full-stack scalable solution with modular backend architecture and responsive frontend for low-connectivity rural environments.",
-    stack: ["Node.js", "Python", "CSS", "Machine Learning", "Computer Vision", "NLP"],
+      "Integrated multilingual NLP, live weather/crop pricing APIs, and NGO geo-mapping for data-driven farming decisions.",
+    stack: ["Node.js", "Python", "CSS", "Machine Learning"],
     features: [
       "AI-based plant disease detection",
       "Multilingual NLP chatbot",
@@ -104,9 +105,9 @@ export const projects = [
     title: "Justice Lawyer",
     subtitle: "Legal Services Platform",
     description:
-      "A full-stack legal services platform enabling users to search, compare, and connect with lawyers by expertise and location, replacing manual discovery with an intelligent matching algorithm.",
+      "Developed a full-stack legal services platform enabling users to search and connect with lawyers via an intelligent matching algorithm.",
     longDesc:
-      "Implemented secure communication channels, appointment scheduling, user review systems, and integrated payment flows. Designed a responsive admin dashboard featuring dynamic filters, profile management, and real-time analytics visualisations.",
+      "Added secure communication, appointment scheduling, payment integration, and a responsive admin dashboard with analytics.",
     stack: ["JavaScript", "CSS", "Node.js", "MongoDB", "REST API"],
     features: [
       "Intelligent lawyer matching algorithm",
@@ -155,50 +156,40 @@ export const skills = {
 export const certifications = [
   {
     title: "AWS Certified Cloud Practitioner (CLF-C02)",
-    issuer: "Amazon Web Services (AWS)",
+    issuer: "Amazon Web Services",
     year: "2026",
     achievements: [
-      "AWS Fundamentals",
-      "Amazon S3",
-      "Identity and Access Management (IAM)"
+      "Validated foundational knowledge of AWS Cloud concepts, core services (EC2, IAM, S3), security, architecture, pricing, and support."
     ],
     icon: "☁️",
     color: "#FF9900",
   },
   {
     title: "AWS Cloud Quest: Cloud Practitioner",
-    issuer: "Amazon Web Services (AWS)",
+    issuer: "Training Badge – Amazon Web Services",
     year: "2026",
     achievements: [
-      "Completed AWS Cloud Quest: Cloud Practitioner - Training Badge",
-      "Gained hands-on experience in AWS Core services: EC2, IAM, S3, RDS, CloudWatch, etc.",
-      "Demonstrated capability in configuring cloud computing infrastructure and secure IAM policies."
+      "Completed hands-on, gamified labs covering core AWS services including EC2, IAM, and S3."
     ],
     icon: "☁️",
     color: "#FF9900",
   },
   {
-    title: "Google Cloud Skills Boost",
+    title: "Google Cloud Skills Boost — Multiple Completions",
     issuer: "Google Cloud",
     year: "2024",
     achievements: [
-      "Monitoring in Google Cloud",
-      "App Engine: 3 Ways",
-      "Build a Website on Google Cloud",
-      "Google Cloud Diwali in the Arcade",
-      "The Arcade Trivia November 2024 Week 1",
+      "Completed Monitoring in Google Cloud, App Engine: 3 Ways, Build a Website on Google Cloud, and Google Cloud Arcade badges — demonstrating hands-on GCP proficiency."
     ],
     icon: "☁️",
     color: "#4285F4",
   },
   {
-    title: "Smart India Hackathon (SIH)",
-    issuer: "Government of India",
+    title: "Smart India Hackathon (SIH) Participant",
+    issuer: "Government of India National Hackathon",
     year: "2024",
     achievements: [
-      "Selected as SIH participant",
-      "Solved real-world government problem statements under tight deadlines",
-      "Demonstrated agile development & rapid prototyping",
+      "Solved real-world government problem statements under tight deadlines, demonstrating collaborative problem-solving and rapid prototyping."
     ],
     icon: "🏆",
     color: "#FF9500",
@@ -206,10 +197,11 @@ export const certifications = [
 ];
 
 export const interests = [
-  "Cloud Computing (AWS & Google Cloud Platform)",
-  "Cloud Infrastructure & Deployment (EC2, IAM, S3)",
-  "DevOps",
-  "Data Analytics & Machine Learning",
-  "Full-Stack Web Development (MERN/PostgreSQL)",
-  "AI/ML Applications",
+  "Cloud Computing (AWS & GCP)",
+  "DevOps & CI/CD",
+  "Cloud Security",
+  "Full-Stack Web Development",
+  "Machine Learning",
+  "System Design",
+  "API Development & Integration",
 ];

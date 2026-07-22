@@ -3,7 +3,7 @@
 // =============================================
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ExternalLink, X, CheckCircle2, Clock } from "lucide-react";
+import { ExternalLink, X, CheckCircle2, Clock, Globe } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { projects } from "../data/resumeData";
 
@@ -73,6 +73,20 @@ function ProjectCard({ project, idx }) {
               <Clock size={12} /> {project.period}
             </span>
             <div className="flex items-center gap-2">
+              {project.live && (
+                <motion.a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  onClick={(e) => e.stopPropagation()}
+                  title="Visit Website"
+                  className="w-8 h-8 rounded-full bg-primary/10 text-primary dark:bg-primary/20 flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                >
+                  <Globe size={14} />
+                </motion.a>
+              )}
               <motion.a
                 href={project.github}
                 target="_blank"
@@ -80,6 +94,7 @@ function ProjectCard({ project, idx }) {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={(e) => e.stopPropagation()}
+                title="GitHub Repo"
                 className="w-8 h-8 rounded-full bg-light-bg dark:bg-white/10 flex items-center justify-center text-neutral dark:text-neutral-light hover:text-primary transition-colors"
               >
                 <FaGithub size={14} />
@@ -151,16 +166,34 @@ function ProjectCard({ project, idx }) {
                 {project.stack.map((t) => <span key={t} className="tech-badge">{t}</span>)}
               </div>
 
-              <motion.a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                whileHover={{ scale: 1.02 }}
-                className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl text-sm font-semibold text-white transition-all"
-                style={{ background: project.color }}
-              >
-                <FaGithub size={16} /> View on GitHub
-              </motion.a>
+              <div className="flex gap-3">
+                {project.live && (
+                  <motion.a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    whileHover={{ scale: 1.02 }}
+                    className="flex-1 flex items-center justify-center gap-2 py-3 rounded-2xl text-sm font-semibold text-white transition-all shadow-md shadow-primary/20"
+                    style={{ background: project.color }}
+                  >
+                    <Globe size={16} /> Visit Website (life4u.me)
+                  </motion.a>
+                )}
+                <motion.a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  whileHover={{ scale: 1.02 }}
+                  className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-2xl text-sm font-semibold transition-all ${
+                    project.live
+                      ? "bg-zinc-100 dark:bg-white/10 text-dark dark:text-white hover:bg-zinc-200 dark:hover:bg-white/20"
+                      : "text-white"
+                  }`}
+                  style={!project.live ? { background: project.color } : {}}
+                >
+                  <FaGithub size={16} /> GitHub Repo
+                </motion.a>
+              </div>
             </motion.div>
           </motion.div>
         )}

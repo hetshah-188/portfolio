@@ -7,7 +7,7 @@ import { certifications } from "../data/resumeData";
 
 export default function Certifications() {
   return (
-    <section className="py-16 px-6 md:px-12 lg:px-24 bg-dark relative overflow-hidden">
+    <section id="certifications" className="py-16 px-6 md:px-12 lg:px-24 bg-dark relative overflow-hidden">
       <div className="absolute inset-0 dot-pattern opacity-10" />
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
