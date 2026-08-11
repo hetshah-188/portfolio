@@ -4,14 +4,15 @@
 
 export const personalInfo = {
   name: "Het Shah",
-  title: "Aspiring Cloud Engineer & Full Stack Developer",
-  roles: ["Aspiring Cloud Engineer | Full Stack Developer", "AWS Certified Cloud Practitioner", "Azure Cloud Intern"],
+  title: "Cloud-Focused Full-Stack Developer",
+  summary: "Cloud-focused full-stack developer with hands-on experience across AWS, GCP, and Azure, and three end-to-end MERN/Node.js applications. AWS Certified Cloud Practitioner seeking a Cloud/Full-Stack Engineering internship or entry-level role.",
+  roles: ["Cloud-Focused Full-Stack Developer", "AWS Certified Cloud Practitioner", "Azure Cloud Intern"],
   email: "hetshah.genai@gmail.com",
   phone: "+91 7984291743",
   location: "Ahmedabad, India",
   github: "https://github.com/hetshah-188",
   linkedin: "https://www.linkedin.com/in/hetshah188",
-  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCompleted an Azure Cloud internship powered by CloudThat under the Microsoft Program, gaining hands-on expertise in Microsoft Azure services, cloud infrastructure, and resource management.\n\nRight now: chasing my next AWS & Azure certs, and open to Cloud/DevOps internships. Let's talk.",
+  bio: "👋 Hey, I'm Het — a Cloud-focused full-stack developer with hands-on experience across AWS, GCP, and Azure, and three end-to-end MERN/Node.js applications.\n\nAWS Certified Cloud Practitioner with practical experience in EC2/IAM/S3, Google Cloud Arcade badges, and a 15-day Azure Cloud Internship at CloudThat Technologies.\n\nCurrently seeking a Cloud / Full-Stack Engineering internship or entry-level role. Let's talk.",
 };
 
 export const education = [
@@ -37,16 +38,15 @@ export const experience = [
   {
     id: 1,
     role: "Azure Cloud Intern",
-    company: "CloudThat (Microsoft Program)",
+    company: "CloudThat Technologies Private Limited",
     location: "Ahmedabad, India",
-    period: "July 2026 – July 2026 (15 Days)",
-    description: "Successfully completed skill-based cloud engineering training under the Microsoft Program powered by CloudThat, gaining hands-on expertise in Microsoft Azure services, cloud infrastructure deployment, and Azure Resource Management.",
+    period: "July 2026 (15 Days)",
+    description: "Gained practical experience with Microsoft Azure across 15 hands-on labs and completed 6 hands-on assignments involving cloud infrastructure, deployment, and Azure resource management.",
     achievements: [
-      "Completed hands-on skill-based Cloud Engineering training under the Microsoft Program delivered by CloudThat.",
-      "Gained practical experience with core Microsoft Azure services, cloud infrastructure deployment, and Azure Resource Management.",
-      "Learned foundational Azure architectural principles, cloud resource provisioning, and cloud management best practices."
+      "Gained practical experience with Microsoft Azure across 15 hands-on labs, covering cloud computing, resource management, and core Azure services.",
+      "Completed 6 hands-on assignments involving cloud infrastructure, deployment, and Azure resource management as part of a 15-day intensive program."
     ],
-    skills: ["Microsoft Azure", "Cloud Computing", "Azure Resource Management", "Cloud Infrastructure", "Azure Services"],
+    skills: ["Microsoft Azure", "Cloud Computing", "Resource Management", "Cloud Infrastructure", "Azure Deployment"],
     icon: "☁️",
     color: "#0078D4",
   }
@@ -58,16 +58,16 @@ export const projects = [
     title: "Life4U",
     subtitle: "Blood Bank Management System",
     description:
-      "Architected a scalable Blood Bank Management System for four roles (donor, patient, hospital staff, admin) with role-based access, reducing wastage via real-time inventory tracking.",
+      "Architected a scalable Blood Bank Management System supporting 4 user roles (donor, patient, hospital staff, admin) with role-based access control and real-time inventory tracking across 5 blood banks/hospitals.",
     longDesc:
-      "Designed RESTful APIs for real-time booking and cross-platform data sync between donors, hospitals, and administrators.",
+      "Designed 5 RESTful API endpoints for real-time booking and cross-platform data sync, handling 25 concurrent users / requests.",
     stack: ["Node.js", "JavaScript", "MongoDB", "React.js", "REST API"],
     features: [
       "Role-based access control (4 roles)",
-      "Real-time inventory tracking",
-      "Direct blood booking system",
-      "RESTful API architecture",
-      "High availability & low-latency responses",
+      "Real-time inventory tracking across 5 blood banks/hospitals",
+      "5 RESTful API endpoints for real-time booking",
+      "Handles 25 concurrent users / requests",
+      "Cross-platform data sync",
     ],
     period: "March 2026 – June 2026",
     color: "#FF3B30",
@@ -82,16 +82,16 @@ export const projects = [
     title: "FarmAssist",
     subtitle: "AI-Powered Farming Solution",
     description:
-      "Built an AI-powered web app for automated plant disease detection via computer vision, with real-time diagnostics through a smart chatbot.",
+      "Built an AI-powered web app for automated plant disease detection via computer vision, achieving 95% classification accuracy across 1000 plant diseases, with real-time diagnostics through a smart chatbot.",
     longDesc:
-      "Integrated multilingual NLP, live weather/crop pricing APIs, and NGO geo-mapping for data-driven farming decisions.",
+      "Integrated multilingual NLP (supporting 7 languages), live weather/crop-pricing APIs, and NGO geo-mapping to support data-driven farming decisions for 10+ farmers/users.",
     stack: ["Node.js", "Python", "CSS", "Machine Learning"],
     features: [
-      "AI-based plant disease detection",
-      "Multilingual NLP chatbot",
-      "Live weather prediction",
-      "Real-time crop market pricing",
-      "NGO geo-mapping integration",
+      "95% classification accuracy across 1000 plant diseases",
+      "Automated plant disease detection via Computer Vision",
+      "Multilingual NLP chatbot supporting 7 languages",
+      "Live weather & crop-pricing APIs",
+      "NGO geo-mapping for 10+ farmers/users",
     ],
     period: "March 2025 – April 2025",
     color: "#34C759",
@@ -105,16 +105,16 @@ export const projects = [
     title: "Justice Lawyer",
     subtitle: "Legal Services Platform",
     description:
-      "Developed a full-stack legal services platform enabling users to search and connect with lawyers via an intelligent matching algorithm.",
+      "Developed a full-stack legal services platform connecting users with 8+ lawyers via an intelligent matching algorithm, cutting manual search time by an estimated 70%.",
     longDesc:
-      "Added secure communication, appointment scheduling, payment integration, and a responsive admin dashboard with analytics.",
+      "Added secure communication, appointment scheduling, and payment integration, plus a responsive admin dashboard surfacing 6 key analytics metrics.",
     stack: ["JavaScript", "CSS", "Node.js", "MongoDB", "REST API"],
     features: [
-      "Intelligent lawyer matching algorithm",
-      "Secure communication channels",
-      "Appointment scheduling system",
-      "User review & rating system",
-      "Integrated payment flows",
+      "Connects users with 8+ lawyers",
+      "Intelligent matching algorithm cutting search time by 70%",
+      "Secure communication & appointment scheduling",
+      "Payment integration",
+      "Responsive admin dashboard with 6 key analytics metrics",
     ],
     period: "November 2023 – January 2024",
     color: "#5856D6",
@@ -127,29 +127,30 @@ export const projects = [
 
 export const skills = {
   Frontend: [
-    { name: "React.js", icon: "devicon-react-original colored", level: 58 },
-    { name: "JavaScript", icon: "devicon-javascript-plain colored", level: 50 },
+    { name: "React.js", icon: "devicon-react-original colored", level: 60 },
+    { name: "JavaScript", icon: "devicon-javascript-plain colored", level: 55 },
     { name: "HTML5", icon: "devicon-html5-plain colored", level: 95 },
     { name: "CSS3", icon: "devicon-css3-plain colored", level: 80 },
-    { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored", level: 70 },
+    { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored", level: 75 },
   ],
   Backend: [
-    { name: "Node.js", icon: "devicon-nodejs-plain colored", level: 45 },
-    { name: "Express.js", icon: "devicon-express-original", level: 42 },
+    { name: "Node.js", icon: "devicon-nodejs-plain colored", level: 50 },
+    { name: "Express.js", icon: "devicon-express-original", level: 48 },
     { name: "FastAPI", icon: "devicon-fastapi-plain colored", level: 55 },
-    { name: "Python", icon: "devicon-python-plain colored", level: 72 },
-    { name: "Java", icon: "devicon-java-plain colored", level: 60 },
+    { name: "Python", icon: "devicon-python-plain colored", level: 75 },
+    { name: "REST API Design", icon: "devicon-fastapi-plain colored", level: 80 },
   ],
   Databases: [
     { name: "MongoDB", icon: "devicon-mongodb-plain colored", level: 82 },
+    { name: "MySQL", icon: "devicon-mysql-plain colored", level: 75 },
     { name: "PostgreSQL", icon: "devicon-postgresql-plain colored", level: 75 },
   ],
   "Cloud & DevOps": [
-    { name: "AWS (EC2, IAM, S3)", icon: "devicon-amazonwebservices-original colored", level: 85 },
-    { name: "GCP", icon: "devicon-googlecloud-plain colored", level: 70 },
-    { name: "Git", icon: "devicon-git-plain colored", level: 88 },
-    { name: "GitHub", icon: "devicon-github-original", level: 88 },
-    { name: "VS Code", icon: "devicon-vscode-plain colored", level: 92 },
+    { name: "AWS (EC2, IAM, S3)", icon: "devicon-amazonwebservices-original colored", level: 88 },
+    { name: "GCP (App Engine, Monitoring)", icon: "devicon-googlecloud-plain colored", level: 75 },
+    { name: "Microsoft Azure", icon: "devicon-azure-plain colored", level: 75 },
+    { name: "Git & GitHub", icon: "devicon-git-plain colored", level: 88 },
+    { name: "CI/CD Pipelines", icon: "devicon-github-original", level: 75 },
   ],
 };
 
@@ -159,27 +160,18 @@ export const certifications = [
     issuer: "Amazon Web Services",
     year: "2026",
     achievements: [
-      "Validated foundational knowledge of AWS Cloud concepts, core services (EC2, IAM, S3), security, architecture, pricing, and support."
+      "Validated foundational knowledge of AWS Cloud concepts, core services (EC2, IAM, S3), security, architecture, pricing, and support.",
+      "Completed AWS Cloud Quest: Cloud Practitioner – hands-on, gamified labs covering EC2, IAM, and S3."
     ],
     icon: "☁️",
     color: "#FF9900",
   },
   {
-    title: "AWS Cloud Quest: Cloud Practitioner",
-    issuer: "Training Badge – Amazon Web Services",
-    year: "2026",
-    achievements: [
-      "Completed hands-on, gamified labs covering core AWS services including EC2, IAM, and S3."
-    ],
-    icon: "☁️",
-    color: "#FF9900",
-  },
-  {
-    title: "Google Cloud Skills Boost — Multiple Completions",
+    title: "Google Cloud Skills Boost – Multiple Completions",
     issuer: "Google Cloud",
     year: "2024",
     achievements: [
-      "Completed Monitoring in Google Cloud, App Engine: 3 Ways, Build a Website on Google Cloud, and Google Cloud Arcade badges — demonstrating hands-on GCP proficiency."
+      "Completed Monitoring in Google Cloud, App Engine: 3 Ways, Build a Website on Google Cloud, and Google Cloud Arcade badges."
     ],
     icon: "☁️",
     color: "#4285F4",
@@ -189,7 +181,7 @@ export const certifications = [
     issuer: "Government of India National Hackathon",
     year: "2024",
     achievements: [
-      "Solved real-world government problem statements under tight deadlines, demonstrating collaborative problem-solving and rapid prototyping."
+      "Solved real-world government problem statements under tight deadlines, demonstrating collaborative problem-solving."
     ],
     icon: "🏆",
     color: "#FF9500",
@@ -197,11 +189,11 @@ export const certifications = [
 ];
 
 export const interests = [
-  "Cloud Computing (AWS & GCP)",
-  "DevOps & CI/CD",
-  "Cloud Security",
-  "Full-Stack Web Development",
-  "Machine Learning",
-  "System Design",
-  "API Development & Integration",
+  "Cloud Computing (AWS, GCP, Azure)",
+  "DevOps & CI/CD Pipelines",
+  "Cloud Security & Infrastructure",
+  "Full-Stack Web Development (MERN / REST API)",
+  "Machine Learning & Computer Vision",
+  "System Design & Computer Networks",
 ];
+

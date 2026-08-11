@@ -23,158 +23,169 @@ endobj
 >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
 7 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Times-BoldItalic /Encoding /WinAnsiEncoding >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
 endobj
 8 0 obj
-<< /Type /Annot /Subtype /Link /Rect [108 738 203 748] /Border [0 0 0] /A << /Type /Action /S /URI /URI (mailto:hetshah.genai@gmail.com) >> >>
+<< /Type /Annot /Subtype /Link /Rect [104 739 199 749] /Border [0 0 0] /A << /Type /Action /S /URI /URI (mailto:hetshah.genai@gmail.com) >> >>
 endobj
 9 0 obj
-<< /Type /Annot /Subtype /Link /Rect [219 738 329 748] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://www.linkedin.com/in/hetshah188) >> >>
+<< /Type /Annot /Subtype /Link /Rect [209 739 319 749] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://www.linkedin.com/in/hetshah188) >> >>
 endobj
 10 0 obj
-<< /Type /Annot /Subtype /Link /Rect [345 738 440 748] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/hetshah-188) >> >>
+<< /Type /Annot /Subtype /Link /Rect [329 739 424 749] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/hetshah-188) >> >>
 endobj
 11 0 obj
-<< /Type /Annot /Subtype /Link /Rect [456 738 491 748] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://hetshah-188.vercel.app) >> >>
+<< /Type /Annot /Subtype /Link /Rect [434 739 469 749] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://hetshah-188.vercel.app) >> >>
 endobj
 12 0 obj
-<< /Type /Annot /Subtype /Link /Rect [36 456 72 466] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/hetshah-188/Life4U) >> >>
+<< /Type /Annot /Subtype /Link /Rect [36 417.5 70 427.5] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/hetshah-188/Life4U) >> >>
 endobj
 13 0 obj
-<< /Length 8242 >>
+<< /Length 9302 >>
 stream
-BT /F2 22 Tf 0 0 0 rg 246 756 Td (HET SHAH) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 36 740 Td (+91 7984291743  |  ) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 108 740 Td (hetshah.genai@gmail.com) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 203 740 Td (  |  ) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 219 740 Td (linkedin.com/in/hetshah188) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 329 740 Td (  |  ) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 345 740 Td (github.com/hetshah-188) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 440 740 Td (  |  ) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 456 740 Td (Portfolio) Tj ET
-BT /F1 8.5 Tf 0 0 0 rg 491 740 Td (  |  Ahmedabad, India) Tj ET
-0.5 w 0 0 0 RG 36 728 m 576 728 l S
-BT /F2 11.5 Tf 0 0 0 rg 36 712 Td (Education) Tj ET
-0.6 w 0 0 0 RG 36 709 m 576 709 l S
-BT /F2 10.5 Tf 0 0 0 rg 36 696 Td (Gujarat Technological University \(GTU\)) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 436 696 Td (August 2024  September 2027) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 36 684 Td (Bachelor of Engineering in Computer Engineering) Tj ET
-BT /F2 10.5 Tf 0 0 0 rg 36 670 Td (Bhagwan Mahavir University) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 470 670 Td (May 2021  June 2024) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 36 658 Td (Diploma in Computer Engineering) Tj ET
-BT /F2 11.5 Tf 0 0 0 rg 36 640 Td (Technical Skills) Tj ET
-0.6 w 0 0 0 RG 36 637 m 576 637 l S
-BT /F2 9.5 Tf 0 0 0 rg 36 624 Td (Cloud & DevOps: ) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 112.8 624 Td (Amazon Web Services \(AWS\)  EC2, IAM, S3; Google Cloud Platform \(GCP\)  App Engine, Deployment,) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 112.8 611.5 Td (Monitoring, Cloud Speech API; Git, GitHub, CI/CD Pipelines) Tj ET
-BT /F2 9.5 Tf 0 0 0 rg 36 599 Td (Languages: ) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 88.8 599 Td (Python, JavaScript, HTML5) Tj ET
-BT /F2 9.5 Tf 0 0 0 rg 36 586.5 Td (Databases: ) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 88.8 586.5 Td (MongoDB, MySQL, PostgreSQL) Tj ET
-BT /F2 9.5 Tf 0 0 0 rg 36 574 Td (Data & Analytics: ) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 122.39999999999999 574 Td (Pandas, Matplotlib, Microsoft Power BI) Tj ET
-BT /F2 9.5 Tf 0 0 0 rg 36 561.5 Td (CS Fundamentals: ) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 117.6 561.5 Td (DSA, OOP, System Design, Computer Networks, OS) Tj ET
-BT /F2 11.5 Tf 0 0 0 rg 36 544 Td (Experience) Tj ET
-0.6 w 0 0 0 RG 36 541 m 576 541 l S
-BT /F2 10.5 Tf 0 0 0 rg 36 528 Td (InfoLabz IT Services) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 420 528 Td (July 2026  July 2026 \(15 Days\)) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 36 516 Td (Data Analytics & Machine Learning Intern) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 492 516 Td (Ahmedabad, India) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 503 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 503 Td (Analyzed ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 90 503 Td (API-sourced data) Tj ET
-BT /F1 9 Tf 0 0 0 rg 168 503 Td ( with ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 192 503 Td (Pandas) Tj ET
-BT /F1 9 Tf 0 0 0 rg 226 503 Td (, built visualizations in ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 318 503 Td (Matplotlib/Power BI) Tj ET
-BT /F1 9 Tf 0 0 0 rg 412 503 Td (, and implemented basic ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 510 503 Td (regression) Tj ET
-BT /F2 9 Tf 0 0 0 rg 52 492 Td (models) Tj ET
-BT /F1 9 Tf 0 0 0 rg 84 492 Td ( for foundational ML practice.) Tj ET
-BT /F2 11.5 Tf 0 0 0 rg 36 474 Td (Projects) Tj ET
-0.6 w 0 0 0 RG 36 471 m 576 471 l S
-BT /F2 10.5 Tf 0 0 0 rg 36 458 Td (Life4U) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 72 458 Td ( | ) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 82 458 Td (Node.js, JavaScript, MongoDB, React.js, REST API) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 456 458 Td (March 2026  June 2026) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 446 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 446 Td (Architected a scalable ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 142 446 Td (Blood Bank Management System) Tj ET
-BT /F1 9 Tf 0 0 0 rg 282 446 Td ( for four roles \(donor, patient, hospital staff, admin\) with role-based) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 435 Td (access, reducing wastage via real-time inventory tracking.) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 424 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 424 Td (Designed ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 92 424 Td (RESTful APIs) Tj ET
-BT /F1 9 Tf 0 0 0 rg 154 424 Td ( for real-time booking and cross-platform data sync between donors, hospitals, and administrators.) Tj ET
-BT /F2 10.5 Tf 0 0 0 rg 36 408 Td (FarmAssist  AI-Powered Farming Solution) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 240 408 Td ( | ) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 250 408 Td (Node.js, Python, CSS, Machine Learning) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 460 408 Td (March 2025  April 2025) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 396 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 396 Td (Built an ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 88 396 Td (AI-powered web app) Tj ET
-BT /F1 9 Tf 0 0 0 rg 180 396 Td ( for automated plant disease detection via computer vision, with real-time diagnostics through a) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 385 Td (smart chatbot.) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 374 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 374 Td (Integrated ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 96 374 Td (multilingual NLP) Tj ET
-BT /F1 9 Tf 0 0 0 rg 172 374 Td (, live weather/crop pricing APIs, and NGO geo-mapping for data-driven farming decisions.) Tj ET
-BT /F2 10.5 Tf 0 0 0 rg 36 358 Td (Justice Lawyer) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 110 358 Td ( | ) Tj ET
-BT /F3 9.5 Tf 0 0 0 rg 120 358 Td (JavaScript, CSS, Node.js, MongoDB, REST API) Tj ET
-BT /F1 9.5 Tf 0 0 0 rg 430 358 Td (November 2023  January 2024) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 346 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 346 Td (Developed a full-stack ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 146 346 Td (legal services platform) Tj ET
-BT /F1 9 Tf 0 0 0 rg 244 346 Td ( enabling users to search and connect with lawyers via an intelligent matching) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 335 Td (algorithm.) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 324 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 324 Td (Added ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 80 324 Td (secure communication) Tj ET
-BT /F1 9 Tf 0 0 0 rg 182 324 Td (, appointment scheduling, payment integration, and a responsive admin dashboard with analytics.) Tj ET
-BT /F2 11.5 Tf 0 0 0 rg 36 306 Td (Certifications & Achievements) Tj ET
-0.6 w 0 0 0 RG 36 303 m 576 303 l S
-BT /F2 10 Tf 0 0 0 rg 36 290 Td (AWS Certified Cloud Practitioner \(CLF-C02\)) Tj ET
-BT /F3 9 Tf 0 0 0 rg 36 279 Td (Amazon Web Services) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 268 Td (" ) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 268 Td (Validated foundational knowledge of ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 206 268 Td (AWS Cloud) Tj ET
-BT /F1 9 Tf 0 0 0 rg 256 268 Td ( concepts, core services \(EC2, IAM, S3\), security, architecture, pricing, and) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 257 Td (support.) Tj ET
-BT /F2 10 Tf 0 0 0 rg 36 243 Td (AWS Cloud Quest: Cloud Practitioner) Tj ET
-BT /F3 9 Tf 0 0 0 rg 36 232 Td (Training Badge  Amazon Web Services) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 221 Td (" Completed hands-on, gamified labs covering core ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 252 221 Td (AWS) Tj ET
-BT /F1 9 Tf 0 0 0 rg 276 221 Td ( services including EC2, IAM, and S3.) Tj ET
-BT /F2 10 Tf 0 0 0 rg 36 207 Td (Google Cloud Skills Boost  Multiple Completions) Tj ET
-BT /F3 9 Tf 0 0 0 rg 36 196 Td (Google Cloud) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 185 Td (" Completed ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 96 185 Td (Monitoring in Google Cloud) Tj ET
-BT /F1 9 Tf 0 0 0 rg 214 185 Td (, ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 220 185 Td (App Engine: 3 Ways) Tj ET
-BT /F1 9 Tf 0 0 0 rg 310 185 Td (, ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 316 185 Td (Build a Website on Google Cloud) Tj ET
-BT /F1 9 Tf 0 0 0 rg 468 185 Td (, and Google Cloud) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 174 Td (Arcade badges  demonstrating hands-on GCP proficiency.) Tj ET
-BT /F2 10 Tf 0 0 0 rg 36 160 Td (Smart India Hackathon \(SIH\) Participant) Tj ET
-BT /F3 9 Tf 0 0 0 rg 36 149 Td (Government of India National Hackathon) Tj ET
-BT /F1 9 Tf 0 0 0 rg 44 138 Td (" Solved real-world ) Tj ET
-BT /F2 9 Tf 0 0 0 rg 130 138 Td (government problem statements) Tj ET
-BT /F1 9 Tf 0 0 0 rg 276 138 Td ( under tight deadlines, demonstrating collaborative problem-solving and) Tj ET
-BT /F1 9 Tf 0 0 0 rg 52 127 Td (rapid prototyping.) Tj ET
-BT /F2 11.5 Tf 0 0 0 rg 36 109 Td (Areas of Interest) Tj ET
-0.6 w 0 0 0 RG 36 106 m 576 106 l S
-BT /F1 8.8 Tf 0 0 0 rg 36 93 Td (Cloud Computing \(AWS & GCP\) � DevOps & CI/CD � Cloud Security � Full-Stack Web Development � Machine Learning � System Design � API Development & Integration) Tj ET
+BT /F2 22 Tf 0 0 0 rg 252 756 Td (Het Shah) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 36 741 Td (+91 7984291743 | ) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 104 741 Td (hetshah.genai@gmail.com) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 199 741 Td ( | ) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 209 741 Td (linkedin.com/in/hetshah188) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 319 741 Td ( | ) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 329 741 Td (github.com/hetshah-188) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 424 741 Td ( | ) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 434 741 Td (Portfolio) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 469 741 Td ( | Ahmedabad, India) Tj ET
+0.5 w 0 0 0 RG 36 729 m 576 729 l S
+BT /F2 11 Tf 0 0 0 rg 36 714 Td (Professional Summary) Tj ET
+0.5 w 0 0 0 RG 36 711 m 576 711 l S
+BT /F1 8.8 Tf 0 0 0 rg 36 700 Td (Cloud-focused full-stack developer with hands-on experience across ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 290 700 Td (AWS, GCP, and Azure,) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 388 700 Td ( and three end-to-end MERN/Node.js) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 36 689 Td (applications. AWS Certified Cloud Practitioner seeking a Cloud/Full-Stack Engineering internship or entry-level role.) Tj ET
+BT /F2 11 Tf 0 0 0 rg 36 673 Td (Education) Tj ET
+0.5 w 0 0 0 RG 36 670 m 576 670 l S
+BT /F2 10 Tf 0 0 0 rg 36 659 Td (Gujarat Technological University \(GTU\)) Tj ET
+BT /F1 9 Tf 0 0 0 rg 442 659 Td (August 2024  September 2027) Tj ET
+BT /F3 9 Tf 0 0 0 rg 36 648 Td (Bachelor of Engineering in Computer Engineering) Tj ET
+BT /F2 10 Tf 0 0 0 rg 36 635 Td (Bhagwan Mahavir University) Tj ET
+BT /F1 9 Tf 0 0 0 rg 478 635 Td (May 2021  June 2024) Tj ET
+BT /F3 9 Tf 0 0 0 rg 36 624 Td (Diploma in Computer Engineering) Tj ET
+BT /F2 11 Tf 0 0 0 rg 36 608 Td (Technical Skills) Tj ET
+0.5 w 0 0 0 RG 36 605 m 576 605 l S
+BT /F2 8.8 Tf 0 0 0 rg 36 594 Td (Cloud & DevOps: ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 108 594 Td (AWS \(EC2, IAM, S3\)  Certified Cloud Practitioner; GCP \(App Engine, Monitoring, Cloud Speech API\)  hands-on) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 36 583 Td (via 3 completed labs; Microsoft Azure  resource management \(internship\); Cloud Security; Git, GitHub, CI/CD Pipelines) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 36 571 Td (Languages & Frameworks: ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 148 571 Td (Python, JavaScript \(Node.js, React.js\), HTML5, REST API design) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 36 559 Td (Databases: ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 86 559 Td (MongoDB, MySQL, PostgreSQL) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 36 547 Td (Data & Analytics: ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 114 547 Td (Pandas, Matplotlib, Microsoft Power BI) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 36 535 Td (CS Fundamentals: ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 114 535 Td (Data Structures & Algorithms, OOP, System Design, Computer Networks, Operating Systems) Tj ET
+BT /F2 11 Tf 0 0 0 rg 36 519 Td (Experience) Tj ET
+0.5 w 0 0 0 RG 36 516 m 576 516 l S
+BT /F2 10 Tf 0 0 0 rg 36 505 Td (CloudThat Technologies Private Limited) Tj ET
+BT /F1 9 Tf 0 0 0 rg 484 505 Td (July 2026 \(15 Days\)) Tj ET
+BT /F3 9 Tf 0 0 0 rg 36 494 Td (Azure Cloud Intern) Tj ET
+BT /F3 9 Tf 0 0 0 rg 496 494 Td (Ahmedabad, India) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 482 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 482 Td (Gained practical experience with ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 172 482 Td (Microsoft Azure) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 238 482 Td ( across ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 268 482 Td (15 hands-on labs) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 342 482 Td (, covering cloud computing, resource management,) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 471.5 Td (and core Azure services.) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 460 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 460 Td (Completed ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 96 460 Td (6 hands-on assignments) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 204 460 Td ( involving cloud infrastructure, deployment, and Azure resource management as part of a) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 52 449.5 Td (15-day intensive program.) Tj ET
+BT /F2 11 Tf 0 0 0 rg 36 433.5 Td (Projects) Tj ET
+0.5 w 0 0 0 RG 36 430.5 m 576 430.5 l S
+BT /F2 10 Tf 0 0 0 rg 36 419.5 Td (Life4U) Tj ET
+BT /F1 9 Tf 0 0 0 rg 468 419.5 Td (March 2026  June 2026) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 408.5 Td (Node.js, JavaScript, MongoDB, React.js, REST API) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 396.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 396.5 Td (Architected a scalable ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 138 396.5 Td (Blood Bank Management System) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 282 396.5 Td ( supporting ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 328 396.5 Td (4 user roles) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 376 396.5 Td ( \(donor, patient, hospital staff, admin\) with) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 386 Td (role-based access control and real-time inventory tracking across ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 308 386 Td (5 blood banks/hospitals.) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 374.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 374.5 Td (Designed ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 92 374.5 Td (5 RESTful API endpoints) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 202 374.5 Td ( for real-time booking and cross-platform data sync, handling ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 436 374.5 Td (25 concurrent users / requests.) Tj ET
+BT /F2 10 Tf 0 0 0 rg 36 359.5 Td (FarmAssist  AI-Powered Farming Solution) Tj ET
+BT /F1 9 Tf 0 0 0 rg 470 359.5 Td (March 2025  April 2025) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 348.5 Td (Node.js, Python, CSS, Machine Learning) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 336.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 336.5 Td (Built an AI-powered web app for automated plant disease detection via ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 332 336.5 Td (computer vision) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 400 336.5 Td (, achieving ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 448 336.5 Td (95% classification accuracy) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 326 Td (across ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 80 326 Td (1000 plant diseases) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 168 326 Td (, with real-time diagnostics through a smart chatbot.) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 314.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 314.5 Td (Integrated ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 92 314.5 Td (multilingual NLP \(supporting 7 languages\)) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 276 314.5 Td (, live weather/crop-pricing APIs, and NGO geo-mapping to support) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 304 Td (data-driven farming decisions for ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 186 304 Td (10+ farmers/users.) Tj ET
+BT /F2 10 Tf 0 0 0 rg 36 289 Td (Justice Lawyer) Tj ET
+BT /F1 9 Tf 0 0 0 rg 436 289 Td (November 2023  January 2024) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 278 Td (JavaScript, CSS, Node.js, MongoDB, REST API) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 266 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 266 Td (Developed a full-stack legal services platform connecting users with ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 322 266 Td (8+ lawyers) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 368 266 Td ( via an intelligent matching algorithm, cutting) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 255.5 Td (manual search time by an estimated ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 202 255.5 Td (70%.) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 244 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 244 Td (Added secure communication, appointment scheduling, and payment integration, plus a responsive admin dashboard) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 233.5 Td (surfacing ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 92 233.5 Td (6 key analytics metrics.) Tj ET
+BT /F2 11 Tf 0 0 0 rg 36 217.5 Td (Certifications & Achievements) Tj ET
+0.5 w 0 0 0 RG 36 214.5 m 576 214.5 l S
+BT /F2 9.5 Tf 0 0 0 rg 36 203.5 Td (AWS Certified Cloud Practitioner \(CLF-C02\)) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 192.5 Td (Amazon Web Services) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 181.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 181.5 Td (Validated foundational knowledge of ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 202 181.5 Td (AWS Cloud) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 252 181.5 Td ( concepts, core services \(EC2, IAM, S3\), security, architecture, pricing, and) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 171 Td (support.) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 159.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 159.5 Td (Completed ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 96 159.5 Td (AWS Cloud Quest: Cloud Practitioner) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 256 159.5 Td (  hands-on, gamified labs covering EC2, IAM, and S3.) Tj ET
+BT /F2 9.5 Tf 0 0 0 rg 36 145.5 Td (Google Cloud Skills Boost  Multiple Completions) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 134.5 Td (Google Cloud) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 123.5 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 123.5 Td (Completed ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 96 123.5 Td (Monitoring in Google Cloud) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 210 123.5 Td (, ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 216 123.5 Td (App Engine: 3 Ways) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 302 123.5 Td (, ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 308 123.5 Td (Build a Website on Google Cloud) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 452 123.5 Td (, and Google Cloud Arcade) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 113 Td (badges.) Tj ET
+BT /F2 9.5 Tf 0 0 0 rg 36 99 Td (Smart India Hackathon \(SIH\) Participant) Tj ET
+BT /F3 8.8 Tf 0 0 0 rg 36 88 Td (Government of India National Hackathon) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 44 77 Td (" ) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 52 77 Td (Solved real-world ) Tj ET
+BT /F2 8.8 Tf 0 0 0 rg 128 77 Td (government problem statements) Tj ET
+BT /F1 8.8 Tf 0 0 0 rg 270 77 Td ( under tight deadlines, demonstrating collaborative problem-solving.) Tj ET
 endstream
 endobj
 xref
@@ -184,17 +195,17 @@ xref
 0000000058 00000 n 
 0000000115 00000 n 
 0000000363 00000 n 
-0000000462 00000 n 
-0000000560 00000 n 
-0000000660 00000 n 
-0000000764 00000 n 
-0000000922 00000 n 
-0000001088 00000 n 
-0000001247 00000 n 
-0000001406 00000 n 
-0000001570 00000 n 
+0000000460 00000 n 
+0000000562 00000 n 
+0000000667 00000 n 
+0000000776 00000 n 
+0000000934 00000 n 
+0000001100 00000 n 
+0000001259 00000 n 
+0000001418 00000 n 
+0000001586 00000 n 
 trailer
 << /Size 14 /Root 1 0 R >>
 startxref
-9813
+10895
 %%EOF
