@@ -5,13 +5,13 @@
 export const personalInfo = {
   name: "Het Shah",
   title: "Aspiring Cloud Engineer & Full Stack Developer",
-  roles: ["Aspiring Cloud Engineer | Full Stack Developer", "AWS Certified Cloud Practitioner", "Data Analytics & ML Intern"],
+  roles: ["Aspiring Cloud Engineer | Full Stack Developer", "AWS Certified Cloud Practitioner", "Azure Cloud Intern"],
   email: "hetshah.genai@gmail.com",
   phone: "+91 7984291743",
   location: "Ahmedabad, India",
   github: "https://github.com/hetshah-188",
   linkedin: "https://www.linkedin.com/in/hetshah188",
-  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCompleted an internship in Data Analytics & ML at InfoLabz, learning how data and cloud actually meet in production.\n\nRight now: chasing my next AWS cert, and open to Cloud/DevOps internships. Let's talk.",
+  bio: "👋 Hey, I'm Het — a Computer Engineering student who fell down the cloud computing rabbit hole and never climbed back out.\n\nI build things, then get curious about how they'd actually run at scale. That curiosity turned into an AWS Certified Cloud Practitioner badge, hands-on time with EC2/IAM/S3, and a couple of Google Cloud certs for good measure.\n\nCompleted an Azure Cloud internship powered by CloudThat under the Microsoft Program, gaining hands-on expertise in Microsoft Azure services, cloud infrastructure, and resource management.\n\nRight now: chasing my next AWS & Azure certs, and open to Cloud/DevOps internships. Let's talk.",
 };
 
 export const education = [
@@ -36,19 +36,19 @@ export const education = [
 export const experience = [
   {
     id: 1,
-    role: "Data Analytics & Machine Learning Intern",
-    company: "InfoLabz IT Services",
+    role: "Azure Cloud Intern",
+    company: "CloudThat (Microsoft Program)",
     location: "Ahmedabad, India",
     period: "July 2026 – July 2026 (15 Days)",
-    description: "Analyzed API-sourced data with Pandas, built visualizations in Matplotlib/Power BI, and implemented basic regression models for foundational ML practice.",
+    description: "Successfully completed skill-based cloud engineering training under the Microsoft Program powered by CloudThat, gaining hands-on expertise in Microsoft Azure services, cloud infrastructure deployment, and Azure Resource Management.",
     achievements: [
-      "Analyzed API-sourced data with Pandas for comprehensive data processing.",
-      "Built visualizations in Matplotlib and Microsoft Power BI to communicate insights.",
-      "Implemented basic regression models for foundational ML practice."
+      "Completed hands-on skill-based Cloud Engineering training under the Microsoft Program delivered by CloudThat.",
+      "Gained practical experience with core Microsoft Azure services, cloud infrastructure deployment, and Azure Resource Management.",
+      "Learned foundational Azure architectural principles, cloud resource provisioning, and cloud management best practices."
     ],
-    skills: ["Python", "Pandas", "Matplotlib", "Microsoft Power BI", "Machine Learning"],
-    icon: "📊",
-    color: "#0066CC",
+    skills: ["Microsoft Azure", "Cloud Computing", "Azure Resource Management", "Cloud Infrastructure", "Azure Services"],
+    icon: "☁️",
+    color: "#0078D4",
   }
 ];
 
