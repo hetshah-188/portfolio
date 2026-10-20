@@ -40,6 +40,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
 
-      - name: Upload website to S3
+      - name: Verify AWS identity
+        run: aws sts get-caller-identity
+
+      - name: Deploy website to S3
         run: |
           aws s3 sync dist/ s3://hetshah-portfolio-site-2026
+
+      - name: Deployment complete
+        run: echo "Portfolio deployed to S3 successfully"
